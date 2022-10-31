@@ -1,0 +1,154 @@
+/*PAGE DE LOGIN - Nom de la page*/
+
+.header{
+    text-align: center;
+    color: black;
+    position: sticky;
+    top: 0;
+    width: 100%
+}
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(44, 221, 162);
+    color: rgb(34, 72, 223);
+    font-weight: bold;
+    position: sticky;
+    }
+
+
+/*barre du menu*/
+.container-fluid{
+    background-color:  rgb(129, 170, 231);
+    color: black;
+    position: sticky;
+    }
+
+#msgConn{
+    background-color:  rgb(129, 170, 231);
+    color: black;
+}
+
+
+
+/*formulaire de connexion*/
+.page-overlay{
+    background-color: dimgrey;
+    opacity: 0.9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+h2{
+    background-color:  rgb(129, 170, 231);
+    color: black;
+}
+
+/*DASHBORD*/
+
+body{
+    background-image: url(/front/images/Pesas_Colores.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    color:rgb(34, 72, 223) !important;
+    text-align: left;
+    background-color: aquamarine;
+}
+
+/*texte wellcome*/
+
+#wellcome{
+    background-image:url(/front/images/gradient.png);
+    background-size: cover;
+    background-color: aquamarine;
+    opacity: 0.8;
+    
+}
+
+h4{
+    color: rgb(81, 227, 152);
+}
+
+.text-end{
+    
+    color: rgb(34, 72, 223);
+}
+
+/*formulaire mon profil*/
+#MonProfil{
+    background-image: url(/front/images/pista.png);
+    background-size: cover;
+    background-color: aquamarine;
+    opacity: 0.9;
+}
+
+
+#userId{
+    margin-top:30px;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+h5{
+    font-weight: bold;
+    text-align: center;
+    color: rgb(8, 8, 28);
+}
+
+#creationUser{
+    background-color:  rgb(129, 170, 231);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: small;
+    opacity: 0.9;
+}
+
+#creationUserPartner{
+    background-color:  rgb(129, 170, 231);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: small;
+    opacity: 0.9;
+}
+
+#creationUserCenter{
+    margin-top: 30px;
+    background-color:  rgb(129, 170, 231);
+    margin-bottom: 30px;
+    font-size: small;
+    opacity: 0.9;
+}
+
+#listeAllUsers{
+    background-color: lightsteelblue;
+    opacity: 0.9;
+    margin-top: 50px;
+    font-size: small;
+}
+#listeAllPartners{
+    background-color: lightsteelblue;
+    opacity: 0.9;
+    margin-top: 50px;
+    font-size: small;
+    
+}
+
+#listeAllCenters{
+    background-color: lightsteelblue;
+    opacity: 0.9;
+    margin-top: 50px;
+    font-size: small;
+}
+
+#roles{
+    margin-top:30px;
+    margin-bottom: 20px;
+    font-size: small;
+}
